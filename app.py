@@ -353,13 +353,13 @@ are associated with higher cancellation rates.
 
 Recommended Actions
 
-• Improve deposit policies
+-> Improve deposit policies
 
-• Encourage loyalty
+-> Encourage loyalty
 
-• Send reminder emails
+-> Send reminder emails
 
-• Focus retention on high-risk bookings
+-> Focus retention on high-risk bookings
 """
     )
 
@@ -374,7 +374,7 @@ if st.button("📄 Generate Executive Report"):
     with open("Hotel_Report.pdf","rb") as file:
 
         st.download_button(
-            "⬇ Download Report",
+            "Download Report",
             file,
             file_name="StayWise_Report.pdf"
         )
