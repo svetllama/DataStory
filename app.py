@@ -1,5 +1,4 @@
 import streamlit as st
-import plotly.express as px
 
 from utils.ui import apply_ui
 apply_ui()
